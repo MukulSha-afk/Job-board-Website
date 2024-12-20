@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+<body style="background-image: url(7.jpg);  background-size: cover;">
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Job Board Create</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><button>home</button></a></li>
+                    <li><a href="jobs.html"><button>jobs</button></a></li>
+                    <li><a href="post-job.html"><button>Post a Job</a></li>
+                    <li><a href="profile.html"><button>Employer Profile</a></li>
+                    <li><a href="log.html"><button>login</button></a></li>
+                    <li><a href="signup.html"><button>Sign Up</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <div id="post-job">
+    <main class="main">
+        <h2>Employer Profile</h2>
+
+        <!-- Profile Details -->
+        <section class="profile">
+            <h3>Company Name: Tech Solutions</h3>
+            <p>Location: New York, NY</p>
+            <p>Industry: Information Technology</p>
+            <p>Description: A leading tech company specializing in innovative software solutions.</p>
+        
+
+        <!-- Edit Profile Form -->
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="company-name">Company Name</label>
+                <input type="text" id="company-name" name="company-name" placeholder="Enter company name" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" placeholder="Enter location" required>
+            </div>
+            <div class="form-group">
+                <label for="industry">Industry</label>
+                <input type="text" id="industry" name="industry" placeholder="Enter industry" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Company Description</label>
+                <textarea id="description" name="description" placeholder="Enter a brief description of the company" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Update Profile</button>
+            </div>
+        </form>
+        </section>
+    </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Job Board Create. All rights reserved.</p>
+    </footer>
+</body>
+</html>
